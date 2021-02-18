@@ -7,4 +7,5 @@ require('simple-git')()
      .commit("first commit!")
      .addRemote('origin', 'https://github.com/NidhiPrajapati1998/repo.git')
      .push('origin', 'master');
+     
      console.log("hello");
