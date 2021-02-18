@@ -6,6 +6,7 @@ require('simple-git')()
      .add('./*')
      .commit("first commit!")
      .addRemote('origin', 'https://github.com/NidhiPrajapati1998/repo.git')
-     .push('origin', 'master');
-     
+    //  .push('origin', 'master');
+    .push(['-u', 'origin', 'master'], () => console.log('done'));
+
      console.log("hello");
