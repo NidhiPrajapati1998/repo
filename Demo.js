@@ -7,4 +7,5 @@ require('simple-git')()
     .commit("first commit!")
     .addRemote('origin', 'https://gitlab.greylabs.com/GCL_Platform/test-gclJobPlatform.git')
     .push(['-u', 'origin', 'master'], () => console.log('done'));
+    
 console.log("hello");
